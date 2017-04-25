@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Route,
   Link,
-  IndexRoute,
 } from 'react-router-dom'
 
 const Home = () => (
