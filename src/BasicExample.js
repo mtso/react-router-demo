@@ -64,7 +64,7 @@ const Nav = (props) => (
   </div>
 )
 
-const routes = (
+export const routes = (
   <Nav>
     <Route exact path='/' component={Home}/>
     <Route path='/about' component={About}/>
