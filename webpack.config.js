@@ -7,7 +7,7 @@ const injectIndex = new HtmlWebpackPlugin({
 })
 
 module.exports = {
-  entry: path.resolve(__dirname, 'src', 'index'),
+  entry: path.resolve(__dirname, 'src', 'client'),
   resolve: { extensions: ['.js', '.jsx', '.json'] },
   output: {
     path: path.resolve(__dirname, 'dist'),

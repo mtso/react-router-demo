@@ -1,6 +1,5 @@
 import React from 'react'
 import {
-  BrowserRouter as Router,
   Route,
   Link,
 } from 'react-router-dom'
@@ -64,7 +63,7 @@ const Nav = (props) => (
   </div>
 )
 
-export const App = () => (
+const App = () => (
   <Nav>
     <Route exact path='/' component={Home}/>
     <Route path='/about' component={About}/>
@@ -72,10 +71,4 @@ export const App = () => (
   </Nav>
 )
 
-const BasicExample = () => (
-  <Router>
-    <App/>
-  </Router>
-)
-
-export default BasicExample
+export default App
