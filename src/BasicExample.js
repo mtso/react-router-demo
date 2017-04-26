@@ -64,7 +64,7 @@ const Nav = (props) => (
   </div>
 )
 
-export const routes = (
+export const App = () => (
   <Nav>
     <Route exact path='/' component={Home}/>
     <Route path='/about' component={About}/>
@@ -74,7 +74,7 @@ export const routes = (
 
 const BasicExample = () => (
   <Router>
-    {routes}
+    <App/>
   </Router>
 )
 
